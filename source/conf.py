@@ -130,6 +130,8 @@ preamble = r'''
 % Ensures arabic numerals (1, 2, 3) as section numbering style
 \renewcommand\thesection{\arabic{section}}
 
+\renewcommand{\def\sphinxthistablewithvlinesstyle}{}
+
 % Apply fancyhdr overrides to Sphinx default styles. More info:
 % https://stackoverflow.com/questions/4839105/sphinx-customization-of-latexpdf-output
 % bug: this still doesn't apply to the TOC and title page. not sure what style's there.
@@ -150,6 +152,7 @@ preamble = r'''
 
 % Override Sphinx defaults for table heading (bold instead of sans serif)
 % https://stackoverflow.com/a/42988749/1666676
+% https://github.com/sphinx-doc/sphinx/blob/a6d7ae16739bf92a032a7c4df0297db7cf120ec9/sphinx/texinputs/sphinxlatexstyletext.sty#L46
 \protected\def\sphinxstyletheadfamily{\bfseries}
 
 % leave this here... https://tex.stackexchange.com/a/8353/143333
