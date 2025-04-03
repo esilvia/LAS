@@ -164,8 +164,8 @@ preamble = r'''
 
 % Override table row colors https://stackoverflow.com/q/2241284/1666676
 % https://github.com/sphinx-doc/sphinx/blob/a6d7ae16739bf92a032a7c4df0297db7cf120ec9/sphinx/texinputs/sphinx.sty#L231
-\definecolor{TableRowColorOdd}{rgb}{0,0,255}
-\definecolor{TableRowColorEven}{rgb}{0,255,0}
+\definecolor{sphinxTableRowColorOdd}{rgb}{0,0,255}
+\definecolor{sphinxTableRowColorEven}{rgb}{0,255,0}
 
 '''.replace("VVVV", u'v.' + myversion)
 
