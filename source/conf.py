@@ -273,6 +273,14 @@ latex_elements = {
 #    'atendofbody': """American Society for Photogrammetry \& Remote Sensing \\ LAS SPECIFICATION \\""" + releasename
 }
 
+# Customize latex table styles: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-latex_table_style
+# Defaults are latex_table_style = ['booktabs', 'colorrows']
+# You can override for specific tables using rst-class directive
+# https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rstclass
+
+# Override default table styles back to plain tables because of aliasing issues with booktabs
+latex_table_style = ['booktabs']
+
 latex_toplevel_sectioning='section'
 latex_show_urls='footnote'
 latex_logo = './_static/asprslogo45.png'
