@@ -130,7 +130,7 @@ preamble = r'''
 % Ensures arabic numerals (1, 2, 3) as section numbering style
 \renewcommand\thesection{\arabic{section}}
 
-\renewcommand{\def\sphinxthistablewithvlinesstyle}{}
+\renewcommand{\def\sphinxthistablewithvlinesstyle}{\def\sphinxthistablewithnovlinesstyle}
 
 % Apply fancyhdr overrides to Sphinx default styles. More info:
 % https://stackoverflow.com/questions/4839105/sphinx-customization-of-latexpdf-output
