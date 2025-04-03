@@ -279,8 +279,8 @@ latex_elements = {
 # https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#rstclass
 
 # Override default table styles back to plain tables because of aliasing issues with booktabs
-# latex_table_style = ['booktabs']
-latex_table_style = ['standard', 'novlines']
+latex_table_style = ['booktabs', 'colorrows', 'novlines']
+# latex_table_style = ['standard', 'novlines']
 
 latex_toplevel_sectioning='section'
 latex_show_urls='footnote'
