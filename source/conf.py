@@ -270,7 +270,7 @@ latex_elements = {
     # Customize sphinx setup parameters
     # https://www.sphinx-doc.org/en/master/latex.html#latexsphinxsetup
     # 'sphinxsetup': "TableRowColorOdd={rgb}{0,0,255},TableRowColorEven={rgb}{0,255,0}",
-    'sphinxsetup': "TableRowColorHeader={rgb}{235,235,235}",
+    # 'sphinxsetup': "TableRowColorHeader={rgb}{235,235,235}",
 }
 
 # Customize latex table styles: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-latex_table_style
