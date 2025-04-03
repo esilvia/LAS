@@ -126,11 +126,10 @@ htmlhelp_basename = 'LASdoc'
 # -- Options for LaTeX output ---------------------------------------------
 
 preamble = r'''
+\AtBeginEnvironment{tabular}{\rowcolors{0}{}{}}
 
 % Ensures arabic numerals (1, 2, 3) as section numbering style
 \renewcommand\thesection{\arabic{section}}
-
-\renewcommand{sphinxTableRowColor}{{rgb}{0.000,0.000,0.000}}
 
 % Apply fancyhdr overrides to Sphinx default styles. More info:
 % https://stackoverflow.com/questions/4839105/sphinx-customization-of-latexpdf-output
