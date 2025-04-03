@@ -104,7 +104,12 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+# HTML theme options in Alabaster here:
+# https://alabaster.readthedocs.io/en/latest/customization.html
+# Alabaster default CSS is here: 
+# https://github.com/sphinx-doc/alabaster/blob/master/alabaster/static/alabaster.css_t
+
+html_theme_options = {}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
