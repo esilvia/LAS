@@ -153,7 +153,6 @@ Any unused characters in the "name" or "description" fields must be set to zero.
     +------------+-------------------------------+-------------------+
 
 
-.. tabularcolumns:: |p{2.0cm}|p{4.0cm}|p{8.5cm}|
 
 .. table:: Encoding of ``options`` Bit Field
 
